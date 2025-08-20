@@ -1,0 +1,38 @@
+.experience {
+    h2 {
+      margin-bottom: 1.5rem;
+    }
+  
+    .exp-card {
+      background: #fafafa;
+      padding: 1rem;
+      border-radius: 1rem;
+      margin-bottom: 1.5rem;
+  
+      h3 {
+        margin: 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #000; // company + role title in black
+      }
+  
+      .duration {
+        font-size: 0.9rem;
+        color: gray; // softer for dates
+        margin-bottom: 0.5rem;
+      }
+  
+      ul {
+        margin: 0;
+        padding-left: 1.2rem;
+      }
+  
+      li {
+        margin-bottom: 0.4rem;
+        color: #000; // ✅ force black for visibility
+        font-size: 0.95rem;
+        line-height: 1.5;
+      }
+    }
+  }
+  
